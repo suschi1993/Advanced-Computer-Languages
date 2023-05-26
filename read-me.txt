@@ -1,0 +1,24 @@
+# Read-me
+
+## What is the FOMC? 
+
+"Monetary policy" denotes the strategies employed by a central bank, such as the Federal Reserve, to manipulate the accessibility and expense of money and credit in order to support the economic objectives of the nation. The Federal Reserve Act of 1913 established the Federal Reserve's mandate to formulate monetary policy.
+
+The Federal Reserve wields three main tools of monetary policy: open market operations, the discount rate, and reserve requirements. The Federal Reserve's Board of Governors is in charge of setting the discount rate and reserve requirements, while the Federal Open Market Committee manages open market operations. By manipulating these three tools, the Federal Reserve impacts the demand and supply of the balances that financial institutions maintain at the Federal Reserve Banks, consequently adjusting the federal funds rate. The federal funds rate is the interest rate applied when financial institutions lend their Federal Reserve balances to other such institutions on an overnight basis.
+
+Adjustments to the federal funds rate instigate a sequence of reactions that impact other short-term interest rates, foreign currency exchange rates, long-term interest rates, the volume of money and credit, and ultimately, an array of economic factors, including employment levels, production output, and the prices of goods and services.
+
+Source and further information: https://www.federalreserve.gov/monetarypolicy/fomc.htm
+
+## FOMC meeting minutes
+
+FOMC meeting minutes are released several weeks after a FOMC meeting took place. They contain detailed information about the decisions and discussions of the FOMC memebers. It is very relevant to determine the further outlook of the economy. 
+
+See an example of a FOMC meeting minute here: https://www.federalreserve.gov/monetarypolicy/fomcminutes20230503.htm
+See news coverage on FOMC meeting minutes here: https://www.bloomberg.com/news/articles/2023-05-24/fed-officials-split-on-support-for-more-hikes-minutes-show#xj4y7vzkg
+
+## Approach to generate FOMC meeting minutes
+
+We use the ChatGPT API to generate new FOMC meeting minutes according to economic parameters from the structure of old meeting minutes. We therefore define prompts that are sent to the ChatGPT API (using GPT-3.5). The output will then be concatenated and the output will open and display as a HTML file in your browser. 
+
+IMPORTANT: Add your OpenAI Access Key to the variable "OPENAI_API_KEY" for the application to work. Refer to openai.com to register and create an Access Key if you don't already have one. 
