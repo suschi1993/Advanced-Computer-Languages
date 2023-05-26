@@ -22,3 +22,5 @@ See news coverage on FOMC meeting minutes here: https://www.bloomberg.com/news/a
 We use the ChatGPT API to generate new FOMC meeting minutes according to economic parameters from the structure of old meeting minutes. We therefore define prompts that are sent to the ChatGPT API (using GPT-3.5). The output will then be concatenated and the output will open and display as a HTML file in your browser. 
 
 IMPORTANT: Add your OpenAI Access Key to the variable "OPENAI_API_KEY" for the application to work. Refer to openai.com to register and create an Access Key if you don't already have one. 
+
+Also make sure to change the folder path in the variable "output_destination_folder" to match your filer. 
